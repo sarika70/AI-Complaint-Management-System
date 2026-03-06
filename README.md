@@ -1,41 +1,70 @@
-# AI Complaint Management System
+#  AI Complaint Management System
 
-A web-based system that automatically classifies customer complaints using Machine Learning.
+An intelligent complaint management system that automatically classifies customer complaints using Machine Learning and stores them in a database.
 
-## Features
+---
+
+##  Features
+
 - Submit customer complaints
-- AI categorizes complaints automatically
+- AI automatically categorizes complaints
 - Stores complaints in SQLite database
-- Dashboard to view complaints
+- Dashboard to view all complaints
+- Simple and clean web interface
 
-## Tech Stack
+---
+
+##  AI Categories
+
+The system can classify complaints such as:
+
+- Billing Issues
+- Delivery Problems
+- Product Quality
+- Service Complaints
+- Other Issues
+
+---
+
+##  Tech Stack
+
 - Python
 - Flask
-- Machine Learning
-- SQLite
+- Machine Learning (NLP)
+- SQLite Database
 - HTML
 - CSS
 
-## Project Structure
+---
+
+##  Project Structure
 AI-Complaint-Management-System
 │
 ├── app.py
 ├── model.py
 ├── complaints.db
+│
 ├── templates
-│   ├── index.html
-│   ├── submit.html
-│   └── dashboard.html
-└── static
-    └── style.css
+│ ├── index.html
+│ ├── submit.html
+│ └── dashboard.html
+│
+├── static
+│ └── style.css
+│
+└── screenshots
+├── home.png
+├── submit.png
+└── dashboard.png
 
-## How to Run
+---
 
-1. Install Flask
-pip install flask
+---
 
-2. Run the application
-python app.py
+## 🎯 Future Improvements
 
-3. Open browser
-http://127.0.0.1:5000
+- Train real NLP model
+- Admin login system
+- Email notifications
+- Complaint priority detection
+
